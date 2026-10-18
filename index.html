@@ -1,366 +1,597 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
 <!--
-  Follow the instructions written in comments to create your stunning portfolio
+
+Hello 😊.
+
+This template is designed and developed by Nisar Hassan Naqvi
+
+for anyone to use for free or customize the way they like.
+
+Github Repo: https://github.com/nisarhassan12/portfolio-template/
+
+My Website: https://nisar.dev
+
+For business & inquires, contact me => syednisarhassan12@gmail.com
+
 -->
 
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
-  <title>
-    Michael Salvini | Game Developer.
-  </title>
+<meta charset="UTF-8" />
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
-  <link rel="stylesheet" href="index.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+<title>Michael Salvini | Game Programmer</title>
+
+<meta name="description" content="Portfolio of Michael Salvini, a Game Programmer specializing in gameplay and audio programming with C++, C# and Unreal Engine.">
+
+<meta name="keywords" content="Michael Salvini, game programmer, gameplay programmer, audio programmer, C++, C#, Unreal Engine, Flax Engine" />
+
+<link rel="stylesheet" href="index.css" />
+
 </head>
 
 <body>
 
-  <!-- ***** Header ***** -->
+<!-- ***** Header ***** -->
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Michael Salvini</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Game Developer.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
-    </div>
-  </header>
+<header class="header" role="banner" id="top">
 
-  <main role="main">
+<div class="row">
 
-    <!-- ***** Work ***** -->
+<nav class="nav" role="navigation">
 
-    <section class="work" id="work">
-      <div class="row">
-        <h2>Ongoing projects</h2>
-        <div class="work__boxes">
-          
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Scaryland: Forbidden Park</h3>
-              <p>
-                Scaryland: Forbidden Park is an Adventure Horror with storydriven focused set in an abandoned theme park cursed by a mysterious presence.
-                The gameplay is inspired by Silent Hill and Resident Evil and Siren games, and with the music segments it becomes a rhythm game inspired by Gotarro Man and Taiko no Tatsujin.
-                The graphical style is an homage to the games of the 32/64-bit era (N64 and PS1) and is also inspired by children '92s cartoons and anime, but in a horror setting.
-              </p>
-              <p>
-                  <b>In production</b>
-              </p>
-              <ul class="work__list">
-                <li>
-                  <b>Role:</b>
-                  Creator, Gameplay Programmer, Audio Programmer
-                </li>
-                <li>
-                  <b>Technologies:</b>
-                  C#,C++
-                  <b>Audio:</b> 
-                  FMOD
-                </li>
-                <li>
-                  <b>Engine:</b>
-                  <a href="https://flaxengine.com/">Flax Engine</a>
-                </li>
-                <li>
-                  <b>Previously:</b>
-                  Godot, Unity
-                </li>
-              </ul>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Scaryland_Editor.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
+<ul class="nav__items">
 
-          <!-- Each div with the work__box class is a project. -->
+<li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
 
-          <!-- <div class="work__box">
-            <div class="work__text">
-              
-            </div>
-          </div> -->
+<li class="nav__item"><a href="#about" class="nav__link">About</a></li>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>FlaxFacepunchSteamworks</h3>
-              <p>
-                A plugin that integrates the Facepunch.Steamworks library into Flax Engine. 
-                Created by Tryibion and Valve's Steamworks integration by Facepunch.
-              </p>
-              <p>
-                <b>What I have contributed:</b>
-              </p>
-              <ul class="work__list">
-                <li>
-                  I updated its network driver for compatibility with Flax 1.13 and fixed how it sends data over connections while preserving backward compatibility with older Flax versions.
-                </li>
-                <!-- 
-                 <li>
-                  
-                </li>
-                -->
-              </ul>
-            </div>
-          </div>
+<li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Flax Engine</h3>
-              <p>
-                Flax Engine is a high quality modern 3D game engine written in <b>C++</b> and <b>C#</b>. 
-                From stunning graphics to powerful scripts, it's designed for fast workflow with many ready-to-use features waiting for you right now.
-                Created by Wojciech Figat and several contributors.
-              </p>
-              <p>
-                <b>What I have contributed:</b>
-              </p>
-              <ul class="work__list">
-                <li>
-                  <b>UI:</b>
-                  Adds a customizable HighlightedColor property to the Dropdown UI element allowing developers to define the color used when highlighting dropdown items during hover or selection states.
-                  Add the wrapping line support on Rich Text Box.
-                  Add the keyboard and controller support to the Slider.
-                </li>
-                <li>
-                  <b>Core:</b>
-                  Add Normalize functions for Vector4 on C++ side and Slerp functions (Spherical Linear Interpolations) to vectors in both C# and C++.
-                  Add the boolean value for transparency was missing on Color on C#.
-                  Add status values's Video Player.
-                </li>
-                <!-- 
-                 <li>
-                  
-                </li>
-                -->
-              </ul>
-            </div>
-          </div>
+</ul>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Connection Lost</h3>
-              <p>
-                CONNECTION LOST – Connect. Launch. Survive the Flow.
+</nav>
 
-                  What happens when a robot is left behind in a forgotten factory?
-                  You get PipeBot, a determined little machine with no legs, a trusty pipe launcher, and one job: restore power and escape.
+</div>
 
-                  Connection Lost is a high-voltage reimagining of the classic pipe-connection puzzle game — but in full 3D, with fast-paced physics, precision shooting, and a magnetic twist.
-                  Armed with the PipeLauncher5001, you’ll shoot, stick, and connect pipes on magnetic grid walls to channel energy from power sources to endpoints.
-                  Solve the puzzles. Master the momentum. And keep the current alive.
-              </p>
-              <p>
-                <b>What I developed:</b>
-              </p>
-              <ul class="work__list">
-                <li>
-                  Implemented firing system with pooling for pipes, collision detection against magnetic surfaces, and real-time visual feedback using material parameters in UE5.
-                </li>
-                <li>
-                  Developed dynamic UI for pipe inventory with real-time preview
-                </li>
-                <li>
-                  Created automatic out-of-bounds object removal system with memory optimization through object pooling
-                </li>
-              </ul>
-              <ul class="work__list">
-                <li>
-                  <b>Role:</b>
-                  Gameplay Programmer
-                </li>
-                <li>
-                  <b>Technologies:</b>
-                  C++/Blueprint
-                </li>
-                <li>
-                  <b>Engine:</b>
-                  Unreal Engine 5
-                </li>
-              </ul>
-              <div class="work__links">
-                <!--
-                <a href="" title="View Itch.io page" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="Itch.io">
-                </a>
-                -->
-              </div>
-            </div>
-            <div class="work__image-box">
-              <iframe width="726" height="396" src="https://www.youtube.com/embed/0GIgo0n50dc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-            </div>
-          </div>
-        </div>
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Air Hockey</h3>
-              <p>
-                A simple Air Hockey game prototype to get some practice with physics in Unreal Engine 5
-              </p>
-              <ul class="work__list">
-                <li>
-                  <b>Role:</b>
-                  Physics Programmer
-                </li>
-                <li>
-                  <b>Technologies:</b>
-                  C++ / Blueprint
-                </li>
-                <li>
-                  <b>Engine:</b>
-                  Unreal Engine 5
-                </li>
-              </ul>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/AirHockey-Showcase.gif" class="work__image" alt="Project 1" />
-            </div>
-          </div>
+<div class="header__text-box row">
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Sandbox Game</h3>
-              <p>
-                A simple sandbox game to get some practice with Blueprint in Unreal Engine 5
-              </p>
-              <ul class="work__list">
-                <li>
-                  <b>Role:</b>
-                  Gameplay Programmer
-                </li>
-                <li>
-                  <b>Technologies:</b>
-                  Blueprint
-                </li>
-                <li>
-                  <b>Engine:</b>
-                  Unreal Engine 5
-                </li>
-              </ul>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Sandbox-Game.gif" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<div class="header__text">
 
-    <!-- ***** About ***** -->
+<h1 class="heading-primary">
 
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              I'm Michael Salvini, a developer living in a small village in Trentino-South Tyrol in Italy.
-              A nerd who loves video games, manga, anime and computer science.
-              Besides being in front of the PC and console all day between developing and video games, in my spare time I watch game dev videos and another passion, that of amusement parks.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
+<span>Michael Salvini</span>
 
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/Michael_Photo.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+</h1>
 
-  <!-- ***** Contact ***** -->
+<p>Gameplay &amp; Audio Programmer</p>
 
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">michael.salvini@gmail.com</a>
-      </div>
-    </div>
-  </section>
+<a href="#contact" class="btn btn--pink">Get in Touch</a>
 
-  <!-- ***** Footer ***** -->
+</div>
 
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://github.com/ThePhantomMask/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/michael-salvini-361440169/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
+</div>
 
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
-    </div>
-  </footer>
+</header>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
+<main role="main">
+
+<!-- ***** Work ***** -->
+
+<section class="work" id="work">
+
+<div class="row">
+
+<h2>Current Projects</h2>
+
+<div class="work__boxes">
+
+<div class="work__box">
+
+<div class="work__text">
+
+<h3>Scaryland: Forbidden Park</h3>
+
+<p>
+
+Scaryland: Forbidden Park is a story-driven adventure horror game set in an abandoned theme park cursed by a mysterious presence.
+
+</p>
+
+<p>
+
+The gameplay draws inspiration from the Silent Hill, Resident Evil and Siren series. During the music segments, it turns into a rhythm game inspired by Gitaroo Man and Taiko no Tatsujin.
+
+</p>
+
+<p>
+
+The visual style is an homage to 32/64-bit era games (N64 and PS1), blended with the look of early-'90s children's cartoons and anime, reimagined in a horror setting.
+
+</p>
+
+<p>
+
+<b>In development</b>
+
+</p>
+
+<ul class="work__list">
+
+<li>
+
+<b>Role:</b>
+
+Creator, Gameplay Programmer, Audio Programmer
+
+</li>
+
+<li>
+
+<b>Technologies:</b>
+
+C#, C++
+
+</li>
+
+<li>
+
+<b>Audio:</b>
+
+FMOD
+
+</li>
+
+<li>
+
+<b>Engine:</b>
+
+<a href="https://flaxengine.com/">Flax Engine</a>
+
+</li>
+
+<li>
+
+<b>Previously used:</b>
+
+Godot, Unity
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="work__image-box">
+
+<img src="./images/Scaryland_Editor.png" class="work__image" alt="Screenshot of the Scaryland: Forbidden Park project in the Flax Engine editor" />
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="row">
+
+<h2>Past Work</h2>
+
+<div class="work__boxes">
+
+<div class="work__box">
+
+<div class="work__text">
+
+<h3>FlaxFacepunchSteamworks</h3>
+
+<p>
+
+A plugin that integrates the Facepunch.Steamworks library into Flax Engine.
+
+Plugin created by Tryibion; Steamworks integration by Facepunch.
+
+</p>
+
+<p>
+
+<b>What I contributed:</b>
+
+</p>
+
+<ul class="work__list">
+
+<li>
+
+Updated the network driver for compatibility with Flax 1.13 and fixed how data is sent over connections, while preserving backward compatibility with older Flax versions.
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="work__box">
+
+<div class="work__text">
+
+<h3>Flax Engine</h3>
+
+<p>
+
+Flax Engine is a high-quality, modern 3D game engine written in <b>C++</b> and <b>C#</b>.
+
+Designed for a fast workflow, it comes with many ready-to-use features.
+
+Created by Wojciech Figat and contributors.
+
+</p>
+
+<p>
+
+<b>What I contributed:</b>
+
+</p>
+
+<ul class="work__list">
+
+<li>
+
+<b>UI:</b>
+
+Added a customizable HighlightedColor property to the Dropdown control, letting developers define the color used to highlight items on hover or selection.
+
+Added line-wrapping support to the Rich Text Box.
+
+Added keyboard and controller support to the Slider.
+
+</li>
+
+<li>
+
+<b>Core:</b>
+
+Added Normalize functions for Vector4 on the C++ side, and Slerp (spherical linear interpolation) functions for vectors in both C# and C++.
+
+Added the missing boolean transparency property to Color in C#.
+
+Added status values to the Video Player.
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="work__box">
+
+<div class="work__text">
+
+<h3>Connection Lost</h3>
+
+<p>
+
+CONNECTION LOST – Connect. Launch. Survive the Flow.
+
+What happens when a robot is left behind in a forgotten factory?
+
+You get PipeBot, a determined little machine with no legs, a trusty pipe launcher, and one job: restore power and escape.
+
+Connection Lost is a high-voltage reimagining of the classic pipe-connection puzzle genre — but in full 3D, with fast-paced physics, precision shooting, and a magnetic twist.
+
+Armed with the PipeLauncher5001, you’ll shoot, stick, and connect pipes on magnetic grid walls to channel energy from power sources to endpoints.
+
+Solve the puzzles. Master the momentum. And keep the current alive.
+
+</p>
+
+<p>
+
+<b>What I developed:</b>
+
+</p>
+
+<ul class="work__list">
+
+<li>
+
+Implemented a pipe-firing system with object pooling, collision detection against magnetic surfaces, and real-time visual feedback driven by material parameters in UE5.
+
+</li>
+
+<li>
+
+Developed a dynamic pipe-inventory UI with real-time preview.
+
+</li>
+
+<li>
+
+Created an automatic out-of-bounds object removal system, optimizing memory through object pooling.
+
+</li>
+
+</ul>
+
+<ul class="work__list">
+
+<li>
+
+<b>Role:</b>
+
+Gameplay Programmer
+
+</li>
+
+<li>
+
+<b>Technologies:</b>
+
+C++, Blueprints
+
+</li>
+
+<li>
+
+<b>Engine:</b>
+
+Unreal Engine 5
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="work__image-box">
+
+<iframe width="726" height="396" src="https://www.youtube.com/embed/0GIgo0n50dc?rel=0" title="Connection Lost gameplay video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+</div>
+
+</div>
+
+<div class="work__box">
+
+<div class="work__text">
+
+<h3>Air Hockey</h3>
+
+<p>
+
+A simple air hockey game prototype made to practice physics programming in Unreal Engine 5.
+
+</p>
+
+<ul class="work__list">
+
+<li>
+
+<b>Role:</b>
+
+Physics Programmer
+
+</li>
+
+<li>
+
+<b>Technologies:</b>
+
+C++, Blueprints
+
+</li>
+
+<li>
+
+<b>Engine:</b>
+
+Unreal Engine 5
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="work__image-box">
+
+<img src="./images/AirHockey-Showcase.gif" class="work__image" alt="Gameplay of the Air Hockey prototype" />
+
+</div>
+
+</div>
+
+<div class="work__box">
+
+<div class="work__text">
+
+<h3>Sandbox Game</h3>
+
+<p>
+
+A simple sandbox game made to practice Blueprints in Unreal Engine 5.
+
+</p>
+
+<ul class="work__list">
+
+<li>
+
+<b>Role:</b>
+
+Gameplay Programmer
+
+</li>
+
+<li>
+
+<b>Technologies:</b>
+
+Blueprints
+
+</li>
+
+<li>
+
+<b>Engine:</b>
+
+Unreal Engine 5
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="work__image-box">
+
+<img src="./images/Sandbox-Game.gif" class="work__image" alt="Gameplay of the Sandbox Game" />
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ***** About ***** -->
+
+<section class="about" id="about">
+
+<div class="row">
+
+<h2>About Me</h2>
+
+<div class="about__content">
+
+<div class="about__text">
+
+<p>
+
+I'm Michael Salvini, a game developer living in a small village in Trentino-South Tyrol, Italy.
+
+</p>
+
+<p>
+
+I'm a nerd who loves video games, manga, anime and computer science. Besides spending my days in front of a PC or console, developing and playing games, I spend my free time watching game dev videos and indulging another passion of mine: amusement parks.
+
+</p>
+
+<!-- TODO: replace "#" with the link to your resume file -->
+
+<a href="#" class="btn">Resume</a>
+
+</div>
+
+<div class="about__photo-container">
+
+<img class="about__photo" src="./images/Michael_Photo.jpg" alt="Portrait of Michael Salvini" />
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- ***** Contact ***** -->
+
+<section class="contact" id="contact">
+
+<div class="row">
+
+<h2>Get in Touch</h2>
+
+<div class="contact__info">
+
+<a href="mailto:michael.salvini@gmail.com" class="btn">michael.salvini@gmail.com</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ***** Footer ***** -->
+
+<footer role="contentinfo" class="footer">
+
+<div class="row">
+
+<ul class="footer__social-links">
+
+<li class="footer__social-link-item">
+
+<a href="https://github.com/ThePhantomMask/" title="Link to GitHub Profile">
+
+<img src="./images/github.svg" class="footer__social-image" alt="GitHub">
+
+</a>
+
+</li>
+
+<li class="footer__social-link-item">
+
+<a href="https://www.linkedin.com/in/michael-salvini-361440169/" title="Link to LinkedIn Profile">
+
+<img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
+
+</a>
+
+</li>
+
+</ul>
+
+<!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+
+<p>
+
+&copy; 2020 - Template designed &amp; developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+
+</p>
+
+<div class="footer__github-buttons">
+
+<iframe
+
+src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+
+frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+
+</iframe>
+
+</div>
+
+</div>
+
+</footer>
+
+<a href="#top" class="back-to-top" title="Back to Top">
+
+<img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+
+</a>
+
+<script src="./index.js"></script>
+
 </body>
 
 </html>
